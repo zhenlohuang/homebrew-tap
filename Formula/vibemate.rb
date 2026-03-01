@@ -1,6 +1,7 @@
 class Vibemate < Formula
   desc "Local CLI companion for coding agents"
   homepage "https://github.com/zhenlohuang/vibemate"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
