@@ -1,26 +1,26 @@
 class Vibemate < Formula
   desc "Local CLI companion for coding agents"
   homepage "https://github.com/zhenlohuang/vibemate"
-  version "0.2.3"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.2.3/vibemate-0.2.3-darwin-aarch64.tar.gz"
-      sha256 "352b676a9efd818d43905aed79d320f17eb4fbd8b0b0220e793387b891568c85"
+      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.3.0/vibemate-0.3.0-darwin-aarch64.tar.gz"
+      sha256 "ec6646068a33d8d54cf85621640326256e8fdc68cdcf77d53c04e951f8f6c4a0"
     else
-      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.2.3/vibemate-0.2.3-darwin-x86_64.tar.gz"
-      sha256 "8b36a328a5e9d405829b737112eca542033d932bfde98326aa0581468a47742d"
+      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.3.0/vibemate-0.3.0-darwin-x86_64.tar.gz"
+      sha256 "3c350b9c628014ddd2a04dbd8f06a1da4116939ab614b75d61b30768a70ca703"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.2.3/vibemate-0.2.3-linux-aarch64.tar.gz"
-      sha256 "74d064add67462f79a90ba8227f512ba6afd347529374a7625f346039ab95987"
+      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.3.0/vibemate-0.3.0-linux-aarch64.tar.gz"
+      sha256 "808d3256d9724ccaeac23ec7fd9a8489eb289a5f59706409c8ea982752a3a298"
     else
-      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.2.3/vibemate-0.2.3-linux-x86_64.tar.gz"
-      sha256 "6be7bc8388a5c3b7fb7b601ef4d582829356b98e5546a2ab39cebce882e0977d"
+      url "https://github.com/zhenlohuang/vibemate/releases/download/v0.3.0/vibemate-0.3.0-linux-x86_64.tar.gz"
+      sha256 "35be5080994dbfd542bfcccdd56827545d17ca069315a576a6c2fa220f05c112"
     end
   end
 
